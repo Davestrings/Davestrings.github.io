@@ -74,6 +74,56 @@ thead tr th {
 
 #codepen a:hover{
     color: black;
+    text-decoration: underline;
+}
+/*Contact Form Style*/
+#contact-div{
+    width: 70%;
+    height: 600px;
+    text-align: center;
+    margin: 5px auto;
+    border-top: 5px solid blue;
+    background: rgba(231, 48, 16, 0.877);
+    color: white;
+    box-shadow: 0 0 10px rgba(73, 73, 73, 0.877);
+}
+#contact-me{
+    border: 5px solid rgba(122, 105, 105, 0.39);
+    margin: 10px auto;
+    line-height: .6rem;
+    width: 90%;
+}
+.info{
+   width: 80%;
+   height: 30px;
+   border: none;
+   box-shadow: 0 0 5px rgba(73, 73, 73, 0.877);
+   margin: 5px auto 5px;
+   padding: 3px;
+}
+#message{
+    margin: 5px auto;
+    width: 80%;
+    border: none;
+    box-shadow: 0 0 10px rgba(82, 82, 241, 0.863);
+}
+#btn{
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+#btn:active{
+    width: 75%;
+}
+#btn:hover{
+    color: white;
+    background-color: blue;
+    border: none;
 }
 
 /* footer style */
@@ -97,7 +147,15 @@ thead tr th {
         width: 100%;
         font-size: 1.2rem
     }
-
+    #contact-div{
+        width: 50%;
+    }
+    
+}
+@media (min-width:1020px){
+    #contact-div{
+        width: 40%;
+    }
 }
 
 /* tablet screens */
