@@ -1,9 +1,7 @@
 
-document.getElementById('btn').onclick = function(){
-    myFunction
+document.getElementById('btn').addEventListener("click", Reply);
+
+function Reply(){
+    alert('Submission successful! Thank you for reaching out')
 };
 
-function myFunction(){
-    alert('Submission successful. Thank you for reaching out')
-};
-console.log(myFunction);

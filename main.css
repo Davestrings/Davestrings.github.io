@@ -7,7 +7,7 @@ body{
 }
 /* image style */
 #img-div{
-   background: linear-gradient(43deg, blue,black,red);
+   background: rgba(231, 48, 16, 0.877);
    margin: 0 auto;
    width: 300px;
    color:white;
