@@ -73,7 +73,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="title">Projects</h3>
+                        <h3 class="title">Projects Portfolio</h3>
                         <p><strong>Survey Form</strong> - <em>Freecodecamp test project.</em></p>
                         <p id="codepen"><a href="https://codepen.io/fatunbi-david-kayode/pen/gVxwEq">Click Here to View.</a></p>
                     </td>
@@ -90,16 +90,16 @@
             <div id="contact-me">
                 <h3>Contact Me</h3>
             </div>
-            <form action="fatunbidavid3@gmail.com" method="get">
+            <form action="fatunbidavid3@gmail.com" name="contactForm" method="post" onsubmit="return CONTACTME()">
                 <label>Title</label><br>
                     <input type="text" class="info" name="title" placeholder="Enter Your Title" required><br>
                 <label>First Name</label><br>
-                    <input type="text" name="first-name" class="info" minlength="4" placeholder="First Name" required><br>
+                    <input type="text" name="firstName" class="info" minlength="4" placeholder="First Name" required><br>
                 <label>Last Name</label><br>
-                    <input type="text" name="last-name" class="info" minlength="4" placeholder="Last Name" required><br>
+                    <input type="text" name="lastName" class="info" minlength="4" placeholder="Last Name" required><br>
                 <label>Email</label><br>
                     <input type="email" name="email" class="info" placeholder="Enter Your Email..." required><br>
-                <textarea id="message" cols="10" rows="6" minlength="20" placeholder="Your message..."></textarea><br>
+                <textarea id="message" name="message" cols="10" rows="6" minlength="20" placeholder="Your message..."></textarea><br>
                 <input type="submit" id="btn" name="submit"  value="Submit">
                 
             </form>

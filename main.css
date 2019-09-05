@@ -7,10 +7,12 @@ body{
 }
 /* image style */
 #img-div{
-   background: rgba(231, 48, 16, 0.877);
-   margin: 0 auto;
+   background: rgba(194, 192, 192, 0.658);
+   margin: 5px auto;
    width: 300px;
-   color:white;
+   color:black;
+   box-shadow: 0 0 15px rgb(24, 23, 23);
+   border-radius: 5px;
 }
 
 #img-div img{
@@ -78,7 +80,7 @@ thead tr th {
 }
 /*Contact Form Style*/
 #contact-div{
-    width: 70%;
+    width: 80%;
     height: 600px;
     text-align: center;
     margin: 5px auto;
@@ -131,7 +133,7 @@ thead tr th {
 .foot{
     color: white;
     text-align: center;
-    background: linear-gradient(53deg, blue, black, red); 
+    background: linear-gradient(53deg, blue, black, rgba(231, 48, 16, 0.877)); 
 }
 
 /* large screens */
@@ -148,7 +150,7 @@ thead tr th {
         font-size: 1.2rem
     }
     #contact-div{
-        width: 50%;
+        width: 60%;
     }
     
 }
@@ -166,10 +168,14 @@ thead tr th {
     }
     #main{
         margin: 0 auto;
-        width: 100%;
+        width: 95%;
         padding:5px;
         font-size: 1.2rem;
         background-color: #fcfafa;
+        border: 5px solid rgba(231, 48, 16, 0.877);
+    }
+    #img-div{
+        width: 50%;
     }
     
 }
@@ -181,8 +187,9 @@ thead tr th {
         width: 100%;
     }
     #main{
-        width: 100%;
+        width: 95%;
         font-size: 1rem;
+        border: 5px solid rgba(231, 48, 16, 0.877);
     }
 
     thead tr th{
