@@ -103,6 +103,15 @@ thead tr th {
    margin: 5px auto 5px;
    padding: 3px;
 }
+
+.info:focus{
+    border: 2px solid blue;
+    -webkit-webkit: border radius 5;
+    -moz-webkit: border radius 5;
+    -ms-webkit: border radius 5;
+    -o-webkit: border radius 5;
+    border-radius: 5px;
+}
 #message{
     margin: 5px auto;
     width: 80%;
@@ -117,6 +126,10 @@ thead tr th {
     color: blue;
     background-color: white;
     border: 2px solid blue;
+    -webkit-webkit: border radius 5;
+    -moz-webkit: border radius 5;
+    -ms-webkit: border radius 5;
+    -o-webkit: border radius 5;
     border-radius: 5px;
 }
 #btn:active{

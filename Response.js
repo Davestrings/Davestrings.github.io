@@ -5,7 +5,7 @@ function CONTACTME(){
     var Email = document.forms["contactForm"]["email"];
     var Message = document.forms["contactForm"]["message"];
 
-    if (fName.value==" "){
+    if (fName.value==""){
         window.alert("please enter your first name");
         fName.focus();
         return false;
@@ -15,7 +15,7 @@ function CONTACTME(){
             fName.focus();
             return false;
         }
-    if (lName.value == " "){
+    if (lName.value == ""){
         window.alert("please enter your last name");
         lName.focus();
         return false;
@@ -25,22 +25,18 @@ function CONTACTME(){
             lName.focus();
             return false;
         }
-    if (rank.value == " ") {
+    if (rank.value == "") {
         window.alert("please enter your title.");
         rank.focus();
         return false;
     }
-    if (rank.value != "Mr"||"Mrs"||"Miss"){
-        window.alert("please enter a valid title e.g Mr, Mrs, Miss");
-        rank.focus();
-        return false;
-    }
+    
     if (rank.length < 2){
-            window.alert("please enter a title.");
+            window.alert("please enter a valid title.");
             rank.focus();
             return false;
         }
-    if (Email.value == " "){
+    if (Email.value == ""){
         window.alert("please enter your email.");
         Email.focus();
         return false;
@@ -64,5 +60,3 @@ function CONTACTME(){
     alert("Submission Successful! Thank you for reaching out");
     return true;
 }
-
-
